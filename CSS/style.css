@@ -1,15 +1,16 @@
 * {
-    /* margin-left: 100px;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px; */
-    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
 }
 
 
 
 h1 {
-    color:#88c6f2;
+    color:rgb(82, 59, 18);
+    text-align: center;
 }
 
 strong {
@@ -17,24 +18,26 @@ strong {
 }
 
 p {
-    color:lightslategrey;
-    background: beige;
+    color:rgb(153, 137, 119);
     font-weight: normal; /* bold, normal */
     text-transform: none; /* uppercase, loswercase, capitalize */
     font-style: normal; /* italic */
     line-height: 20px; /* normal, px value */
     letter-spacing: normal; /* normal, px value */
-    text-decoration: underline;
-    font-size: 12px;
+    font-size: 14px;
+    margin: auto;
 }
 
 body {
-    background: brown;
+    background: rgb(204, 182, 140);
 }
 
 #citation {
-    color:darkslategrey;
-    background:burlywood;
+    color:rgb(61, 47, 20);
+}
+
+#second {
+    color:rgb(61, 47, 20);
 }
 
 .new-class {
@@ -44,24 +47,38 @@ body {
 
 a{
     font-size: 20px;
-    text-decoration:underline;
+    text-decoration:none;
+    line-height: 110px;
 }
 
 a:visited {
-    color: green;
+    color:rgb(61, 47, 20);
+    text-decoration: none;
+
 }
 a:hover {
-    color:white;
-    text-decoration: none;
+    color: rgb(37, 37, 88);
+    text-decoration: underline;
+
+}
+
+#sentence {
+    color:rgb(61, 47, 20);
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    margin: auto;
+    line-height: 30px;
 }
 
 #container {
-    background: rgb(214, 154, 164);
+    margin: auto;
+    width: 70%;
+    /* background: rgb(214, 154, 164);
     border-style: dotted;
     border-color: blueviolet;
     border-width: 5px;
-    width: 200px;
-    text-align: center;
+    width: 200px; */
 }
 
 #shape {
@@ -78,6 +95,12 @@ a:hover {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    size: 70%;
+    margin: auto;
+    line-height: 50px;
+}
+
+#space {
+    line-height: 50px;
+    color: rgb(204, 182, 140);
 }
